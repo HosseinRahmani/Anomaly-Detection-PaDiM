@@ -1,0 +1,21 @@
+{
+  "format_version": 1,
+  "category": "metal_nut",
+  "image_threshold": 12.721894264221191,
+  "pixel_threshold": 10.457669258117676,
+  "image_quantile": 0.95,
+  "pixel_quantile": 0.995,
+  "image_score": "maximum_smoothed_pixel_score",
+  "comparison": "strictly_greater",
+  "map_resize": "bilinear_align_corners_false",
+  "gaussian_sigma": 4.0,
+  "gaussian_mode": "reflect",
+  "score_type": "raw_mahalanobis_distance",
+  "image_size": 224,
+  "validation_images": 44,
+  "validation_image_exceedance": 0.06818181818181818,
+  "validation_pixel_exceedance": 0.005000126826298701,
+  "validation_manifest_sha256": "43447a16a9bc1b5f021d11a46fa3a61b3dce945667a6ff243d0f76a646d8aa40",
+  "model_sha256": "0e6643bd618040c60007a4f9796582986544a8c9ebf2d138c692842139bca8ab",
+  "note": "Normal-only empirical quantiles; future false-positive rates are not guaranteed."
+}

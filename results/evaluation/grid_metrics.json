@@ -1,0 +1,36 @@
+{
+  "category": "grid",
+  "test_images": 78,
+  "image_threshold": 10.808159828186035,
+  "pixel_threshold": 9.174430847167969,
+  "image": {
+    "auroc": 0.9231411862990809,
+    "average_precision": 0.974103420870509,
+    "accuracy": 0.7948717948717948,
+    "precision": 1.0,
+    "recall": 0.7192982456140351,
+    "f1": 0.8367346938775511,
+    "tn": 21,
+    "fp": 0,
+    "fn": 16,
+    "tp": 41
+  },
+  "pixel": {
+    "auroc": 0.9207287019840846,
+    "average_precision": 0.23558078727827175,
+    "accuracy": 0.983258162038854,
+    "precision": 0.21528004028078074,
+    "recall": 0.5369953086328544,
+    "f1": 0.30734589891857034,
+    "tn": 3833668,
+    "fp": 52989,
+    "fn": 12534,
+    "tp": 14537,
+    "iou": 0.18157631776167873,
+    "dice": 0.30734589891857034
+  },
+  "test_manifest_sha256": "34da2a2a351deaad81fae9237facaa5471122dced384c6402145f682bde5856d",
+  "model_sha256": "fe0b0a790026549ca05e0dfb50053ba96630e3a6320485021eca12c74eeec158",
+  "pixel_evaluation_resolution": 224,
+  "note": "Pixel metrics include all test images at the resized resolution; masks use nearest-neighbor resize."
+}

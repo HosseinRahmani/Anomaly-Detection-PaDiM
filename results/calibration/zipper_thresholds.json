@@ -1,0 +1,21 @@
+{
+  "format_version": 1,
+  "category": "zipper",
+  "image_threshold": 11.984103202819824,
+  "pixel_threshold": 7.840224266052246,
+  "image_quantile": 0.95,
+  "pixel_quantile": 0.995,
+  "image_score": "maximum_smoothed_pixel_score",
+  "comparison": "strictly_greater",
+  "map_resize": "bilinear_align_corners_false",
+  "gaussian_sigma": 4.0,
+  "gaussian_mode": "reflect",
+  "score_type": "raw_mahalanobis_distance",
+  "image_size": 224,
+  "validation_images": 48,
+  "validation_image_exceedance": 0.0625,
+  "validation_pixel_exceedance": 0.005000315555909864,
+  "validation_manifest_sha256": "dcdb5f7bd11047425c6f819856f396be8a95dc9aa84c3a527e3d9a2dc970bf4c",
+  "model_sha256": "f1cce999b0b40efdd3ee548b38ff379c3550f4a32a2d26047b84b3e92627238f",
+  "note": "Normal-only empirical quantiles; future false-positive rates are not guaranteed."
+}

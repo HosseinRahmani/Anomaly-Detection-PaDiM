@@ -1,0 +1,16 @@
+category,train,validation,test,seed
+bottle,167,42,83,42
+cable,179,45,150,42
+capsule,175,44,132,42
+carpet,224,56,117,42
+grid,211,53,78,42
+hazelnut,312,79,110,42
+leather,196,49,124,42
+metal_nut,176,44,115,42
+pill,213,54,167,42
+screw,256,64,160,42
+tile,184,46,117,42
+toothbrush,48,12,42,42
+transistor,170,43,100,42
+wood,197,50,79,42
+zipper,192,48,151,42

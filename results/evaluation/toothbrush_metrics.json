@@ -1,0 +1,36 @@
+{
+  "category": "toothbrush",
+  "test_images": 42,
+  "image_threshold": 12.264564514160156,
+  "pixel_threshold": 10.344706535339355,
+  "image": {
+    "auroc": 0.8500000000000001,
+    "average_precision": 0.9316147483520238,
+    "accuracy": 0.9047619047619048,
+    "precision": 0.8823529411764706,
+    "recall": 1.0,
+    "f1": 0.9375,
+    "tn": 8,
+    "fp": 4,
+    "fn": 0,
+    "tp": 30
+  },
+  "pixel": {
+    "auroc": 0.9868482353455564,
+    "average_precision": 0.4573616313430951,
+    "accuracy": 0.941892158649174,
+    "precision": 0.2060331667601738,
+    "recall": 0.976742747572215,
+    "f1": 0.3402866070466545,
+    "tn": 1953354,
+    "fp": 121704,
+    "fn": 752,
+    "tp": 31582,
+    "iou": 0.20502733091834482,
+    "dice": 0.3402866070466545
+  },
+  "test_manifest_sha256": "de860a3b1981706c31b8c2e20d0c753dcb49eac6d420a9d6dc9cf5a0702c4977",
+  "model_sha256": "753f741b4684b4ccf9437cc78f9b40cb8da19c207f4bfdb5761e0f08e1c8b5de",
+  "pixel_evaluation_resolution": 224,
+  "note": "Pixel metrics include all test images at the resized resolution; masks use nearest-neighbor resize."
+}

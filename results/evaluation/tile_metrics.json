@@ -1,0 +1,36 @@
+{
+  "category": "tile",
+  "test_images": 117,
+  "image_threshold": 13.130574226379395,
+  "pixel_threshold": 10.349435806274414,
+  "image": {
+    "auroc": 0.9512987012987013,
+    "average_precision": 0.9801588216081266,
+    "accuracy": 0.8034188034188035,
+    "precision": 0.9841269841269841,
+    "recall": 0.7380952380952381,
+    "f1": 0.8435374149659864,
+    "tn": 32,
+    "fp": 1,
+    "fn": 22,
+    "tp": 62
+  },
+  "pixel": {
+    "auroc": 0.9185437522772967,
+    "average_precision": 0.3836870505711812,
+    "accuracy": 0.9126006372100122,
+    "precision": 0.41234310833477933,
+    "recall": 0.5695426605626744,
+    "f1": 0.4783590890605937,
+    "tn": 5122249,
+    "fp": 335280,
+    "fn": 177806,
+    "tp": 235257,
+    "iou": 0.31437054933366115,
+    "dice": 0.4783590890605937
+  },
+  "test_manifest_sha256": "075195f2c78c72ef0a8a4a3d1dc9e50f58d2fbd16ca1f9ec57ec40f5baee8064",
+  "model_sha256": "1eab3f408ec42dd83a076746d21e221170c99708a94a97af39ee09f7b5c06655",
+  "pixel_evaluation_resolution": 224,
+  "note": "Pixel metrics include all test images at the resized resolution; masks use nearest-neighbor resize."
+}

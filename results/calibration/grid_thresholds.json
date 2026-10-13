@@ -1,0 +1,21 @@
+{
+  "format_version": 1,
+  "category": "grid",
+  "image_threshold": 10.808159828186035,
+  "pixel_threshold": 9.174430847167969,
+  "image_quantile": 0.95,
+  "pixel_quantile": 0.995,
+  "image_score": "maximum_smoothed_pixel_score",
+  "comparison": "strictly_greater",
+  "map_resize": "bilinear_align_corners_false",
+  "gaussian_sigma": 4.0,
+  "gaussian_mode": "reflect",
+  "score_type": "raw_mahalanobis_distance",
+  "image_size": 224,
+  "validation_images": 53,
+  "validation_image_exceedance": 0.05660377358490566,
+  "validation_pixel_exceedance": 0.005000135372545245,
+  "validation_manifest_sha256": "7c34c89f6657ac666cb3e6b23472e836eeaadca6d0dbc246ba7d9067250500c3",
+  "model_sha256": "fe0b0a790026549ca05e0dfb50053ba96630e3a6320485021eca12c74eeec158",
+  "note": "Normal-only empirical quantiles; future false-positive rates are not guaranteed."
+}

@@ -1,0 +1,21 @@
+{
+  "format_version": 1,
+  "category": "toothbrush",
+  "image_threshold": 12.264564514160156,
+  "pixel_threshold": 10.344706535339355,
+  "image_quantile": 0.95,
+  "pixel_quantile": 0.995,
+  "image_score": "maximum_smoothed_pixel_score",
+  "comparison": "strictly_greater",
+  "map_resize": "bilinear_align_corners_false",
+  "gaussian_sigma": 4.0,
+  "gaussian_mode": "reflect",
+  "score_type": "raw_mahalanobis_distance",
+  "image_size": 224,
+  "validation_images": 12,
+  "validation_image_exceedance": 0.08333333333333333,
+  "validation_pixel_exceedance": 0.005000730761054422,
+  "validation_manifest_sha256": "4feee17bf296ec8dcfc11679b49f6904594ed251a1e1cba567174d97aee706d5",
+  "model_sha256": "753f741b4684b4ccf9437cc78f9b40cb8da19c207f4bfdb5761e0f08e1c8b5de",
+  "note": "Normal-only empirical quantiles; future false-positive rates are not guaranteed."
+}

@@ -1,0 +1,21 @@
+{
+  "format_version": 1,
+  "category": "screw",
+  "image_threshold": 17.59732437133789,
+  "pixel_threshold": 13.474584579467773,
+  "image_quantile": 0.95,
+  "pixel_quantile": 0.995,
+  "image_score": "maximum_smoothed_pixel_score",
+  "comparison": "strictly_greater",
+  "map_resize": "bilinear_align_corners_false",
+  "gaussian_sigma": 4.0,
+  "gaussian_mode": "reflect",
+  "score_type": "raw_mahalanobis_distance",
+  "image_size": 224,
+  "validation_images": 64,
+  "validation_image_exceedance": 0.0625,
+  "validation_pixel_exceedance": 0.005000211754623725,
+  "validation_manifest_sha256": "c71fdd5687684b1de413a15c4a370f9a3174751bc7507913e61cb3d4d2e5da51",
+  "model_sha256": "4890d00243030b3ed00a97c26409076e392cc7b7ffc2eaf19046ad0e38645438",
+  "note": "Normal-only empirical quantiles; future false-positive rates are not guaranteed."
+}

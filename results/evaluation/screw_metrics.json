@@ -1,0 +1,36 @@
+{
+  "category": "screw",
+  "test_images": 160,
+  "image_threshold": 17.59732437133789,
+  "pixel_threshold": 13.474584579467773,
+  "image": {
+    "auroc": 0.6964541914326706,
+    "average_precision": 0.8685626879567929,
+    "accuracy": 0.5375,
+    "precision": 0.8813559322033898,
+    "recall": 0.4369747899159664,
+    "f1": 0.5842696629213483,
+    "tn": 34,
+    "fp": 7,
+    "fn": 67,
+    "tp": 52
+  },
+  "pixel": {
+    "auroc": 0.9798843613880307,
+    "average_precision": 0.11313185448500494,
+    "accuracy": 0.984443508848852,
+    "precision": 0.08871353606977857,
+    "recall": 0.5649068478097997,
+    "f1": 0.15334553589587147,
+    "tn": 7891960,
+    "fp": 116179,
+    "fn": 8711,
+    "tp": 11310,
+    "iou": 0.0830396475770925,
+    "dice": 0.15334553589587147
+  },
+  "test_manifest_sha256": "b0cd9c2544328fdede75af03a73a32cf9a31ae8afa6ec0a09670c19f0ca259cf",
+  "model_sha256": "4890d00243030b3ed00a97c26409076e392cc7b7ffc2eaf19046ad0e38645438",
+  "pixel_evaluation_resolution": 224,
+  "note": "Pixel metrics include all test images at the resized resolution; masks use nearest-neighbor resize."
+}

@@ -1,0 +1,21 @@
+{
+  "format_version": 1,
+  "category": "bottle",
+  "image_threshold": 13.754618644714355,
+  "pixel_threshold": 8.742072105407715,
+  "image_quantile": 0.95,
+  "pixel_quantile": 0.995,
+  "image_score": "maximum_smoothed_pixel_score",
+  "comparison": "strictly_greater",
+  "map_resize": "bilinear_align_corners_false",
+  "gaussian_sigma": 4.0,
+  "gaussian_mode": "reflect",
+  "score_type": "raw_mahalanobis_distance",
+  "image_size": 224,
+  "validation_images": 42,
+  "validation_image_exceedance": 0.07142857142857142,
+  "validation_pixel_exceedance": 0.005000018980806608,
+  "validation_manifest_sha256": "d805deebf737d94dfc510c7824d64a197423126e1c96fd946f4c2295e2b5df41",
+  "model_sha256": "011eabc3115ad511e3c0e0edd53477276c9fc425c60ba33e7cdf7bed17aaadc7",
+  "note": "Normal-only empirical quantiles; future false-positive rates are not guaranteed."
+}

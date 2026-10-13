@@ -1,0 +1,21 @@
+{
+  "format_version": 1,
+  "category": "carpet",
+  "image_threshold": 9.955097198486328,
+  "pixel_threshold": 7.9490966796875,
+  "image_quantile": 0.95,
+  "pixel_quantile": 0.995,
+  "image_score": "maximum_smoothed_pixel_score",
+  "comparison": "strictly_greater",
+  "map_resize": "bilinear_align_corners_false",
+  "gaussian_sigma": 4.0,
+  "gaussian_mode": "reflect",
+  "score_type": "raw_mahalanobis_distance",
+  "image_size": 224,
+  "validation_images": 56,
+  "validation_image_exceedance": 0.05357142857142857,
+  "validation_pixel_exceedance": 0.005000256240889213,
+  "validation_manifest_sha256": "5d11e6a4ff9e8bd4d08368d318765ce2d211af3143956ecf7d23e92e558fe515",
+  "model_sha256": "7f7ea0c95e03380071295b020f1705bb114f6c8e3fc032e64ad40949236affe0",
+  "note": "Normal-only empirical quantiles; future false-positive rates are not guaranteed."
+}

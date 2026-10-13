@@ -1,0 +1,36 @@
+{
+  "category": "hazelnut",
+  "test_images": 110,
+  "image_threshold": 17.445606231689453,
+  "pixel_threshold": 12.647340774536133,
+  "image": {
+    "auroc": 0.8553571428571429,
+    "average_precision": 0.8721015558121373,
+    "accuracy": 0.8090909090909091,
+    "precision": 0.8266666666666667,
+    "recall": 0.8857142857142857,
+    "f1": 0.8551724137931035,
+    "tn": 27,
+    "fp": 13,
+    "fn": 8,
+    "tp": 62
+  },
+  "pixel": {
+    "auroc": 0.9818950615831653,
+    "average_precision": 0.5621094713837252,
+    "accuracy": 0.9765576081284787,
+    "precision": 0.46963918261982723,
+    "recall": 0.7529768972419174,
+    "f1": 0.5784766949773742,
+    "tn": 5301191,
+    "fp": 100261,
+    "fn": 29126,
+    "tp": 88782,
+    "iou": 0.4069414078077087,
+    "dice": 0.5784766949773742
+  },
+  "test_manifest_sha256": "32eba77df89abc4e198d2c9367d7bd8b8f5505c77d961c8c78e42448df2b5f05",
+  "model_sha256": "a6721763ec122853eab7d9e526b35e01b0455654f14b6256982a8df6527308f7",
+  "pixel_evaluation_resolution": 224,
+  "note": "Pixel metrics include all test images at the resized resolution; masks use nearest-neighbor resize."
+}

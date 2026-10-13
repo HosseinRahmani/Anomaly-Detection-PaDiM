@@ -1,0 +1,36 @@
+{
+  "category": "wood",
+  "test_images": 79,
+  "image_threshold": 15.011432647705078,
+  "pixel_threshold": 9.7342529296875,
+  "image": {
+    "auroc": 0.9754385964912281,
+    "average_precision": 0.9923087031512546,
+    "accuracy": 0.9113924050632911,
+    "precision": 0.9649122807017544,
+    "recall": 0.9166666666666666,
+    "f1": 0.9401709401709402,
+    "tn": 17,
+    "fp": 2,
+    "fn": 5,
+    "tp": 55
+  },
+  "pixel": {
+    "auroc": 0.935488287873916,
+    "average_precision": 0.378057038194686,
+    "accuracy": 0.9046124729559545,
+    "precision": 0.2567255674308841,
+    "recall": 0.7748377662005301,
+    "f1": 0.38566835153872525,
+    "tn": 3467112,
+    "fp": 343618,
+    "fn": 34489,
+    "tp": 118685,
+    "iou": 0.23890280036715567,
+    "dice": 0.38566835153872525
+  },
+  "test_manifest_sha256": "2b5fe7db0892cb81403e8db67c03d106c613737673f8a7f0f18919af682804d6",
+  "model_sha256": "f0702f53a68ad1091e014fb759cecfa73a827a73fd54a26bf5f6f1b6e7b4eb6c",
+  "pixel_evaluation_resolution": 224,
+  "note": "Pixel metrics include all test images at the resized resolution; masks use nearest-neighbor resize."
+}

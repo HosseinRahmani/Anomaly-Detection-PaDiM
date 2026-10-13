@@ -1,0 +1,21 @@
+{
+  "format_version": 1,
+  "category": "hazelnut",
+  "image_threshold": 17.445606231689453,
+  "pixel_threshold": 12.647340774536133,
+  "image_quantile": 0.95,
+  "pixel_quantile": 0.995,
+  "image_score": "maximum_smoothed_pixel_score",
+  "comparison": "strictly_greater",
+  "map_resize": "bilinear_align_corners_false",
+  "gaussian_sigma": 4.0,
+  "gaussian_mode": "reflect",
+  "score_type": "raw_mahalanobis_distance",
+  "image_size": 224,
+  "validation_images": 79,
+  "validation_image_exceedance": 0.05063291139240506,
+  "validation_pixel_exceedance": 0.005000121092740894,
+  "validation_manifest_sha256": "d02322ecf5f411d1d423d7d5cc899ed6efd12eccea3dacebd42e55092533a603",
+  "model_sha256": "a6721763ec122853eab7d9e526b35e01b0455654f14b6256982a8df6527308f7",
+  "note": "Normal-only empirical quantiles; future false-positive rates are not guaranteed."
+}

@@ -1,0 +1,16 @@
+{
+  "categories": 15,
+  "averaging": "equal-weight per-category mean",
+  "metrics": {
+    "image_auroc": 0.9016797857434996,
+    "image_ap": 0.9487426840541742,
+    "image_accuracy": 0.7913959577025498,
+    "image_precision": 0.947720948391053,
+    "image_recall": 0.7483591048890229,
+    "image_f1": 0.8092288886465041,
+    "pixel_auroc": 0.9672467792386866,
+    "pixel_ap": 0.45746564532565437,
+    "pixel_f1": 0.4190625043884729,
+    "pixel_iou": 0.27926320333906607
+  }
+}

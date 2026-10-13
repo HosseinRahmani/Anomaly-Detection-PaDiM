@@ -1,0 +1,36 @@
+{
+  "category": "cable",
+  "test_images": 150,
+  "image_threshold": 20.012914657592773,
+  "pixel_threshold": 13.216288566589355,
+  "image": {
+    "auroc": 0.8356446776611693,
+    "average_precision": 0.888118552317366,
+    "accuracy": 0.6133333333333333,
+    "precision": 0.9473684210526315,
+    "recall": 0.391304347826087,
+    "f1": 0.5538461538461539,
+    "tn": 56,
+    "fp": 2,
+    "fn": 56,
+    "tp": 36
+  },
+  "pixel": {
+    "auroc": 0.9646606083584457,
+    "average_precision": 0.39342324659057093,
+    "accuracy": 0.9677283960459183,
+    "precision": 0.4305726030116108,
+    "recall": 0.38111639174495154,
+    "f1": 0.40433781387717865,
+    "tn": 7201074,
+    "fp": 109022,
+    "fn": 133867,
+    "tp": 82437,
+    "iou": 0.25339812987587834,
+    "dice": 0.40433781387717865
+  },
+  "test_manifest_sha256": "415fa5e5fd374c68831186c9c9dc29a35ba269105fdea59ee920a93451773f24",
+  "model_sha256": "2ffc8feb506875651786aaa31417ec5b8f7ffb9b78dee0449e2d0018e90b4e23",
+  "pixel_evaluation_resolution": 224,
+  "note": "Pixel metrics include all test images at the resized resolution; masks use nearest-neighbor resize."
+}

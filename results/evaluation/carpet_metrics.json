@@ -1,0 +1,36 @@
+{
+  "category": "carpet",
+  "test_images": 117,
+  "image_threshold": 9.955097198486328,
+  "pixel_threshold": 7.9490966796875,
+  "image": {
+    "auroc": 0.982744783306581,
+    "average_precision": 0.994835191690471,
+    "accuracy": 0.9487179487179487,
+    "precision": 0.9770114942528736,
+    "recall": 0.9550561797752809,
+    "f1": 0.9659090909090909,
+    "tn": 26,
+    "fp": 2,
+    "fn": 4,
+    "tp": 85
+  },
+  "pixel": {
+    "auroc": 0.9879737143419711,
+    "average_precision": 0.5679623004524572,
+    "accuracy": 0.9566650177699285,
+    "precision": 0.26467496314741623,
+    "recall": 0.9576091113849815,
+    "f1": 0.4147238134676881,
+    "tn": 5526056,
+    "fp": 250412,
+    "fn": 3990,
+    "tp": 90134,
+    "iou": 0.2616098172614763,
+    "dice": 0.4147238134676881
+  },
+  "test_manifest_sha256": "93cb89411e4437c2f601c39e0e6da4907600a58cf60fc391076a64f422386af7",
+  "model_sha256": "7f7ea0c95e03380071295b020f1705bb114f6c8e3fc032e64ad40949236affe0",
+  "pixel_evaluation_resolution": 224,
+  "note": "Pixel metrics include all test images at the resized resolution; masks use nearest-neighbor resize."
+}

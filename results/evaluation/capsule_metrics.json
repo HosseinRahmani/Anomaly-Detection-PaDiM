@@ -1,0 +1,36 @@
+{
+  "category": "capsule",
+  "test_images": 132,
+  "image_threshold": 16.05396270751953,
+  "pixel_threshold": 8.542020797729492,
+  "image": {
+    "auroc": 0.8607897885919426,
+    "average_precision": 0.9450085978701105,
+    "accuracy": 0.6515151515151515,
+    "precision": 0.9565217391304348,
+    "recall": 0.6055045871559633,
+    "f1": 0.7415730337078652,
+    "tn": 20,
+    "fp": 3,
+    "fn": 43,
+    "tp": 66
+  },
+  "pixel": {
+    "auroc": 0.9837193513663802,
+    "average_precision": 0.4048437152889607,
+    "accuracy": 0.9605692507826994,
+    "precision": 0.17462053832270796,
+    "recall": 0.8865213163922809,
+    "f1": 0.2917702827668685,
+    "tn": 6308278,
+    "fp": 254273,
+    "fn": 6886,
+    "tp": 53795,
+    "iou": 0.17080272039726435,
+    "dice": 0.2917702827668685
+  },
+  "test_manifest_sha256": "b79afc75e66f70cdbff1746c1749ba03d0a4d4b8b781b615e5fa57e5783abacf",
+  "model_sha256": "36c09fd9bfc2d295b2569a4ab03597e51064fbd0c631681d9be6c8d5231ba959",
+  "pixel_evaluation_resolution": 224,
+  "note": "Pixel metrics include all test images at the resized resolution; masks use nearest-neighbor resize."
+}

@@ -1,0 +1,21 @@
+{
+  "format_version": 1,
+  "category": "wood",
+  "image_threshold": 15.011432647705078,
+  "pixel_threshold": 9.7342529296875,
+  "image_quantile": 0.95,
+  "pixel_quantile": 0.995,
+  "image_score": "maximum_smoothed_pixel_score",
+  "comparison": "strictly_greater",
+  "map_resize": "bilinear_align_corners_false",
+  "gaussian_sigma": 4.0,
+  "gaussian_mode": "reflect",
+  "score_type": "raw_mahalanobis_distance",
+  "image_size": 224,
+  "validation_images": 50,
+  "validation_image_exceedance": 0.06,
+  "validation_pixel_exceedance": 0.005,
+  "validation_manifest_sha256": "adc2e9f2d60201c629327b8c82ad31aa7e68985962a3b6063991d4a8d3a89c52",
+  "model_sha256": "f0702f53a68ad1091e014fb759cecfa73a827a73fd54a26bf5f6f1b6e7b4eb6c",
+  "note": "Normal-only empirical quantiles; future false-positive rates are not guaranteed."
+}

@@ -1,0 +1,21 @@
+{
+  "format_version": 1,
+  "category": "tile",
+  "image_threshold": 13.130574226379395,
+  "pixel_threshold": 10.349435806274414,
+  "image_quantile": 0.95,
+  "pixel_quantile": 0.995,
+  "image_score": "maximum_smoothed_pixel_score",
+  "comparison": "strictly_greater",
+  "map_resize": "bilinear_align_corners_false",
+  "gaussian_sigma": 4.0,
+  "gaussian_mode": "reflect",
+  "score_type": "raw_mahalanobis_distance",
+  "image_size": 224,
+  "validation_images": 46,
+  "validation_image_exceedance": 0.06521739130434782,
+  "validation_pixel_exceedance": 0.005000225293921917,
+  "validation_manifest_sha256": "5ecedda8c2ad709fd6fe2ea722e8cccca5a5dd877d297990d3c8f6056ef11556",
+  "model_sha256": "1eab3f408ec42dd83a076746d21e221170c99708a94a97af39ee09f7b5c06655",
+  "note": "Normal-only empirical quantiles; future false-positive rates are not guaranteed."
+}

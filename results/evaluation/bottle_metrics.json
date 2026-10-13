@@ -1,0 +1,36 @@
+{
+  "category": "bottle",
+  "test_images": 83,
+  "image_threshold": 13.754618644714355,
+  "pixel_threshold": 8.742072105407715,
+  "image": {
+    "auroc": 0.9984126984126984,
+    "average_precision": 0.999500031494079,
+    "accuracy": 0.9879518072289156,
+    "precision": 0.984375,
+    "recall": 1.0,
+    "f1": 0.9921259842519685,
+    "tn": 19,
+    "fp": 1,
+    "fn": 0,
+    "tp": 63
+  },
+  "pixel": {
+    "auroc": 0.9823753130316175,
+    "average_precision": 0.707792120560243,
+    "accuracy": 0.9121321862705926,
+    "precision": 0.3953669668105621,
+    "recall": 0.9844871661643978,
+    "f1": 0.5641664512917137,
+    "tn": 3561830,
+    "fp": 362203,
+    "fn": 3732,
+    "tp": 236843,
+    "iou": 0.3929191178178367,
+    "dice": 0.5641664512917137
+  },
+  "test_manifest_sha256": "4e1730d2be56c42a2f60dd246ff5cc1bb741b1c582e7cf6f53000a4ab90b4464",
+  "model_sha256": "011eabc3115ad511e3c0e0edd53477276c9fc425c60ba33e7cdf7bed17aaadc7",
+  "pixel_evaluation_resolution": 224,
+  "note": "Pixel metrics include all test images at the resized resolution; masks use nearest-neighbor resize."
+}

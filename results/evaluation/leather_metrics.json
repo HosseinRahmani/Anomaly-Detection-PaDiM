@@ -1,0 +1,36 @@
+{
+  "category": "leather",
+  "test_images": 124,
+  "image_threshold": 9.958035469055176,
+  "pixel_threshold": 7.572903633117676,
+  "image": {
+    "auroc": 1.0,
+    "average_precision": 1.0000000000000002,
+    "accuracy": 0.967741935483871,
+    "precision": 0.9583333333333334,
+    "recall": 1.0,
+    "f1": 0.9787234042553191,
+    "tn": 28,
+    "fp": 4,
+    "fn": 0,
+    "tp": 92
+  },
+  "pixel": {
+    "auroc": 0.9913831985220907,
+    "average_precision": 0.3901771233078279,
+    "accuracy": 0.856056841209266,
+    "precision": 0.04309849282956131,
+    "recall": 1.0,
+    "f1": 0.08263551932214987,
+    "tn": 5285898,
+    "fp": 895589,
+    "fn": 0,
+    "tp": 40337,
+    "iou": 0.04309849282956131,
+    "dice": 0.08263551932214987
+  },
+  "test_manifest_sha256": "c929677c0ad65e7de4c04a4b66f1f0c1ad1c035de1e212502a35147f02b41266",
+  "model_sha256": "9a1a35bd469256168bf86ff27e31892711f44ddf869810542ff4c8a61033dc64",
+  "pixel_evaluation_resolution": 224,
+  "note": "Pixel metrics include all test images at the resized resolution; masks use nearest-neighbor resize."
+}

@@ -1,0 +1,21 @@
+{
+  "format_version": 1,
+  "category": "capsule",
+  "image_threshold": 16.05396270751953,
+  "pixel_threshold": 8.542020797729492,
+  "image_quantile": 0.95,
+  "pixel_quantile": 0.995,
+  "image_score": "maximum_smoothed_pixel_score",
+  "comparison": "strictly_greater",
+  "map_resize": "bilinear_align_corners_false",
+  "gaussian_sigma": 4.0,
+  "gaussian_mode": "reflect",
+  "score_type": "raw_mahalanobis_distance",
+  "image_size": 224,
+  "validation_images": 44,
+  "validation_image_exceedance": 0.06818181818181818,
+  "validation_pixel_exceedance": 0.005000126826298701,
+  "validation_manifest_sha256": "16cfff803b86e535652d8f6d5d08fbf2723991d8a54da4728410611879cf4afe",
+  "model_sha256": "36c09fd9bfc2d295b2569a4ab03597e51064fbd0c631681d9be6c8d5231ba959",
+  "note": "Normal-only empirical quantiles; future false-positive rates are not guaranteed."
+}

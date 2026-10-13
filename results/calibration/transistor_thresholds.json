@@ -1,0 +1,21 @@
+{
+  "format_version": 1,
+  "category": "transistor",
+  "image_threshold": 23.3485164642334,
+  "pixel_threshold": 14.60918140411377,
+  "image_quantile": 0.95,
+  "pixel_quantile": 0.995,
+  "image_score": "maximum_smoothed_pixel_score",
+  "comparison": "strictly_greater",
+  "map_resize": "bilinear_align_corners_false",
+  "gaussian_sigma": 4.0,
+  "gaussian_mode": "reflect",
+  "score_type": "raw_mahalanobis_distance",
+  "image_size": 224,
+  "validation_images": 43,
+  "validation_image_exceedance": 0.06976744186046512,
+  "validation_pixel_exceedance": 0.005000074157570005,
+  "validation_manifest_sha256": "3ab5ac3e65b7545b71b265d4b9759e01f84a88749a9d20403fb388d9c22d986a",
+  "model_sha256": "9989477b4b8c82bc4bf17b5ae11c990fc06069fbc3b0d06336d0364c5de5f33f",
+  "note": "Normal-only empirical quantiles; future false-positive rates are not guaranteed."
+}

@@ -1,0 +1,16 @@
+category,source_visualization,readme_image
+bottle,results/visualizations/bottle/broken_large_000.png,docs/examples/bottle.png
+cable,results/visualizations/cable/bent_wire_000.png,docs/examples/cable.png
+capsule,results/visualizations/capsule/crack_000.png,docs/examples/capsule.png
+carpet,results/visualizations/carpet/color_000.png,docs/examples/carpet.png
+grid,results/visualizations/grid/bent_000.png,docs/examples/grid.png
+hazelnut,results/visualizations/hazelnut/crack_000.png,docs/examples/hazelnut.png
+leather,results/visualizations/leather/color_000.png,docs/examples/leather.png
+metal_nut,results/visualizations/metal_nut/bent_000.png,docs/examples/metal_nut.png
+pill,results/visualizations/pill/color_000.png,docs/examples/pill.png
+screw,results/visualizations/screw/manipulated_front_000.png,docs/examples/screw.png
+tile,results/visualizations/tile/crack_000.png,docs/examples/tile.png
+toothbrush,results/visualizations/toothbrush/defective_000.png,docs/examples/toothbrush.png
+transistor,results/visualizations/transistor/bent_lead_000.png,docs/examples/transistor.png
+wood,results/visualizations/wood/color_000.png,docs/examples/wood.png
+zipper,results/visualizations/zipper/broken_teeth_000.png,docs/examples/zipper.png

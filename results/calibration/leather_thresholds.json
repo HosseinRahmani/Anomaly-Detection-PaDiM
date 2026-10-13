@@ -1,0 +1,21 @@
+{
+  "format_version": 1,
+  "category": "leather",
+  "image_threshold": 9.958035469055176,
+  "pixel_threshold": 7.572903633117676,
+  "image_quantile": 0.95,
+  "pixel_quantile": 0.995,
+  "image_score": "maximum_smoothed_pixel_score",
+  "comparison": "strictly_greater",
+  "map_resize": "bilinear_align_corners_false",
+  "gaussian_sigma": 4.0,
+  "gaussian_mode": "reflect",
+  "score_type": "raw_mahalanobis_distance",
+  "image_size": 224,
+  "validation_images": 49,
+  "validation_image_exceedance": 0.061224489795918366,
+  "validation_pixel_exceedance": 0.005000357923781757,
+  "validation_manifest_sha256": "51d9d56eacf688e580cba28c90c7038e5cb069ad1fd33fbd0e3be08faac10827",
+  "model_sha256": "9a1a35bd469256168bf86ff27e31892711f44ddf869810542ff4c8a61033dc64",
+  "note": "Normal-only empirical quantiles; future false-positive rates are not guaranteed."
+}

@@ -1,0 +1,48 @@
+# Original dataset (kept locally)
+/data/
+/datasets/
+
+# Fitted statistics and model weights
+/models/
+*.pt
+*.pt.tmp
+*.pth
+*.ckpt
+*.onnx
+
+# Regenerable calibration score arrays; retain threshold JSONs
+/results/calibration/*_validation_scores.npz
+
+# Legacy visualization folders
+/results/visualization/
+/results/visualizations_boundaries/
+/results/visualizations_boundry/
+
+# Python environments, caches, and build output
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+build/
+dist/
+*.egg-info/
+
+# Local OS/editor files and secrets
+.DS_Store
+._*
+Thumbs.db
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example
+*.log
+
+# Intentionally retain src/, scripts/, dataset_checks/, splits/,
+# results/evaluation/, results/calibration/*.json,
+# results/visualizations/, and docs/examples/.

@@ -1,0 +1,36 @@
+{
+  "category": "transistor",
+  "test_images": 100,
+  "image_threshold": 23.3485164642334,
+  "pixel_threshold": 14.60918140411377,
+  "image": {
+    "auroc": 0.8887499999999999,
+    "average_precision": 0.8672263956337805,
+    "accuracy": 0.79,
+    "precision": 0.9523809523809523,
+    "recall": 0.5,
+    "f1": 0.6557377049180327,
+    "tn": 59,
+    "fp": 1,
+    "fn": 20,
+    "tp": 20
+  },
+  "pixel": {
+    "auroc": 0.9715884017531706,
+    "average_precision": 0.6240212183917725,
+    "accuracy": 0.9649685108418368,
+    "precision": 0.6829305494356506,
+    "recall": 0.5025858700080652,
+    "f1": 0.5790408951134698,
+    "tn": 4720935,
+    "fp": 56127,
+    "fn": 119647,
+    "tp": 120891,
+    "iou": 0.4075000421350682,
+    "dice": 0.5790408951134698
+  },
+  "test_manifest_sha256": "36b4e5f9ff395692af7d69283ecd25fa3fb3b9996a83bea548f1d16f4a739cf2",
+  "model_sha256": "9989477b4b8c82bc4bf17b5ae11c990fc06069fbc3b0d06336d0364c5de5f33f",
+  "pixel_evaluation_resolution": 224,
+  "note": "Pixel metrics include all test images at the resized resolution; masks use nearest-neighbor resize."
+}
